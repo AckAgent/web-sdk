@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Cross-platform test vectors (downloaded from ackagent/api)
+test-fixtures/*.json
