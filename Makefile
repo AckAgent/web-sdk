@@ -45,7 +45,7 @@ download-bbs-wasm:
 	@echo "BBS WASM downloaded to src/generated/bbs_ffi_wasm/"
 
 # Cross-platform test vectors — downloaded from ackagent/api (single source of truth)
-TEST_VECTORS_VERSION ?= v0.1.12
+TEST_VECTORS_VERSION ?= v0.3.4
 TEST_VECTORS_BASE = https://raw.githubusercontent.com/AckAgent/api/$(TEST_VECTORS_VERSION)
 
 download-test-vectors:
